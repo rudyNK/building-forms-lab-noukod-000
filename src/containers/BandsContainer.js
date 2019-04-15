@@ -4,7 +4,7 @@ import BandInput from '../components/BandInput';
 
 class BandsContainer extends Component {
 
-  
+
   render() {
     const bands = this.props.bands.map((band, id) => {return <li key={id}>{band.name}</li>})
     return(
